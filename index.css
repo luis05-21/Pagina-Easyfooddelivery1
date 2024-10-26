@@ -1,0 +1,20 @@
+body{
+   background-color:  #0a6eba;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.674); 
+    }
+   
+    body{
+        
+    background-color: rgb(197, 217, 234);
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: blue;
+}

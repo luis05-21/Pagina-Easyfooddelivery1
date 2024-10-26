@@ -1,0 +1,41 @@
+/* Comentario: esto es un comentario en CSS */
+body {
+    background-color: #a8b6b7f7; /* Fondo del cuerpo del documento */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+}
+
+h1 {
+    color: #0d279d; /* Color de texto del título h1 */
+    text-align: center; /* Alineación centrada */
+    text-shadow: 2px 2px 4px rgba(9, 9, 9, 0.707); /* Sombra para el texto */
+}
+
+p {
+    line-height: 1.6; /* Altura de la línea del texto del párrafo */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Corrección de espacios en el box-shadow */
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+. img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+

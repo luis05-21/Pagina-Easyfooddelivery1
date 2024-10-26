@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realiza tu Pedido</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1>Formulario para hacer un pedido</h1>
+    <form id="formularioparapedidos">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="pedido">Pedido que desea hacer</label>
+        <select id="pedido" name="pedido" required>
+            <option value="">Seleccione su pedido</option>
+            <option value="hamburguesa">Hamburguesa</option>
+            <option value="perro caliente">Perro Caliente</option>
+            <option value="pizza">Pizza</option>
+            <option value="pollo apanado">Pollo Apanado</option>
+        </select>
+        
+        <label for="modoPago">Modo de Pago</label>
+        <select id="modoPago" name="modoPago" required>
+            <option value="">Seleccione un medio de pago</option>
+            <option value="efectivo">Efectivo</option>
+            <option value="tarjeta">Tarjeta</option>
+            <option value="contraentrega">Contraentrega</option>
+        </select>
+        
+
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="formulario.js"></script>
+</body>
+</html>
